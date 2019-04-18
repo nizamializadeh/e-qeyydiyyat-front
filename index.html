@@ -1,0 +1,885 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    
+<!-- Mirrored from wpgeeky.com/html/university-preview/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 16 Apr 2019 06:17:18 GMT -->
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>University || Home One</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.html">
+        <!-- Place favicon.ico in the root directory -->
+
+		<!-- all css here -->
+		<!-- bootstrap v3.3.7 css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- animate css -->
+        <link rel="stylesheet" href="css/animate.css">
+		<!-- owl.carousel.2.0.0-beta.2.4 css -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+		<!-- slicknav.min.css -->
+        <link rel="stylesheet" href="css/slicknav.min.css">
+		<!-- font-awesome v4.6.3 css -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- video-js.css -->
+        <link rel="stylesheet" href="css/video-js.css">
+		<!-- style css -->
+		<link rel="stylesheet" href="style.css">
+		<!-- responsive css -->
+        <link rel="stylesheet" href="css/responsive.css">
+		<!-- modernizr css -->
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <style>
+        	@import url(https://fonts.googleapis.com/css?family=Montserrat);
+/* css class for the registration form generated errors */
+
+.profilepress-reg-status {
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 1.471;
+  padding: 10px 19px;
+  background-color: #e74c3c;
+  color: #ffffff;
+  font-weight: normal;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  margin: 5px 0;
+}
+/*form styles*/
+
+#msform {
+  width: 400px;
+  margin: 50px auto 550px;
+  text-align: center;
+  position: relative;
+}
+
+#msform fieldset {
+  background: #174873 none repeat scroll 0 0;
+  border: 0 none;
+  border-radius: 3px;
+  /*box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);*/
+  padding: 20px 30px;
+  box-sizing: border-box;
+  width: 80%;
+  margin: 0 9%;
+  /*stacking fieldsets above each other*/
+  
+  position: absolute;
+}
+/*Hide all except first fieldset*/
+
+#msform fieldset:not(:first-of-type) {
+  display: none;
+}
+/*inputs*/
+
+#msform input,
+#msform textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: montserrat;
+  color: #2C3E50;
+  font-size: 13px;
+}
+/*buttons*/
+
+#msform .action-button {
+  width: 100px;
+  background: #27AE60;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px;
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+  box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+/*headings*/
+
+.fs-title {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #2C3E50;
+  margin-bottom: 10px;
+}
+
+.fs-subtitle {
+  font-weight: normal;
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 20px;
+}
+/*progressbar*/
+
+#progressbar {
+  margin-bottom: 30px;
+  overflow: hidden;
+  /*CSS counters to number the steps*/
+  
+  counter-reset: step;
+}
+
+#progressbar li {
+  list-style-type: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 9px;
+  width: 25%;
+  float: left;
+  position: relative;
+}
+
+#progressbar li:before {
+  content: counter(step);
+  counter-increment: step;
+  width: 20px;
+  line-height: 20px;
+  display: block;
+  font-size: 15px;
+  color: #333;
+  background: white;
+  border-radius: 3px;
+  margin: 0 auto 5px auto;
+}
+ input[type="date"]:before {
+    content: attr(placeholder) !important;
+    margin-right: 0.5em;
+  }
+  input[type="date"]:focus:before,
+  input[type="date"]:valid:before {
+    content: "";
+  }
+
+
+
+#progressbar li:first-child:after {
+  /*connector not needed before the first step*/
+  
+  content: none;
+}
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+  background: #27AE60;
+  color: white;
+}
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		
+		<!-- header area start -->
+		<header>
+			<div class="header-top bg-1 ptb-20">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<div class="header-top-left">
+								<ul class="language">
+									<li><a href="#">Language <i class="fa fa-angle-down"></i></a>
+										<ul class="dropdown">
+											<li><a href="#">English</a></li>
+											<li><a href="#">French</a></li>
+											<li><a href="#">Arabic</a></li>
+										</ul>
+									</li>
+								</ul>
+								<ul class="socil-icon">
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+									<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<div class="header-top-right text-right">
+								<ul>
+									<li><a href="#">Log in <i class="fa fa-user"></i></a></li>
+									<li><a href="#"><i class="fa fa-unlock-alt"></i> Register</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom" id="sticky-header">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-3 col-xs-8">
+							<div class="logo">
+								<a href="index-2.html">
+									<img src="img/logo.png" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="col-md-8 col-sm-9 hidden-xs">
+							<div class="mainmenu text-right">
+								<ul id="navigation">
+									<li class="active"><a href="index-2.html">Home</a>
+										<ul>
+											<li><a href="index-2.html">Home Page One</a></li>
+											<li><a href="index2.html">Home Page Two</a></li>
+										</ul>
+									</li>
+									<li><a href="courses.html">courses</a>
+										<ul>
+											<li><a href="courses.html">Courses page</a></li>
+											<li><a href="courses-grid.html">Courses 3 col Grid</a></li>
+											<li><a href="courses-left-sidebar.html">Courses Left Sidebar</a></li>
+											<li><a href="courses-right-sidebar.html">Courses Right Sidebar</a></li>
+											<li><a href="courses-details.html">Courses Details</a></li>
+										</ul>
+									</li>
+									<li><a href="#">blog</a>
+										<ul>
+											<li><a href="blog-left-sidebar.html">blog Left Sidebar</a></li>
+											<li><a href="blog-right-sidebar.html">blog right Sidebar</a></li>
+											<li><a href="blog-details.html">blog details</a></li>
+										</ul>
+									</li>
+									<li><a href="#">pages</a>
+										<ul class="right">
+											<li><a href="about.html">About Us</a></li>
+											<li><a href="404.html">404 Pages</a></li>
+										</ul>
+									</li>
+									<li><a href="contact.html">contact</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-xs-4 hidden-lg hidden-md hidden-sm">
+							<div class="responsive-menu-wrap floatright">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- header area end -->
+		
+		<!-- slider-area start -->
+		<div class="slider-area">
+			<div class="slider-active">
+				<div class="single-slider">
+					<img src="img/slider/1.jpg" alt="" />
+					<div class="slider-content">
+						<div class="table">
+							<div class="table-cell">
+								<div class="container">
+									<div class="row">
+										<div class="col-md-8  col-xs-12">
+											<h2>Better Education For a Better World</h2>
+											<p>Almost before we knew it we had left the ground.The face of the moon was in shadow.The spectacle before us was indeed sublime.All their equipment and instruments are alive.All their equipment and instruments are alive.It watched the storm, so beautiful yet terrific.</p>
+											<a href="#">Apply now</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="single-slider opacity-background">
+					<img src="img/slider/2.jpg" alt="" />
+					<div class="slider-content">
+						<div class="table">
+							<div class="table-cell">
+								<div class="container">
+									<div class="row">
+										<div class="col-md-8  col-xs-12">
+											<h2 class="slide-left">Better Education For a Better World</h2>
+											<p>Almost before we knew it we had left the ground.The face of the moon was in shadow.The spectacle before us was indeed sublime.All their equipment and instruments are alive.All their equipment and instruments are alive.It watched the storm, so beautiful yet terrific.</p>
+											<a href="#">Apply now</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="single-slider opacity-background">
+					<img src="img/slider/3.jpg" alt="" />
+					<div class="slider-content">
+						<div class="table">
+							<div class="table-cell">
+								<div class="container">
+									<div class="row">
+										<div class="col-md-8 col-xs-12">
+											<h2 class="slide-right">Better Education For a Better World</h2>
+											<p>Almost before we knew it we had left the ground.The face of the moon was in shadow.The spectacle before us was indeed sublime.All their equipment and instruments are alive.All their equipment and instruments are alive.It watched the storm, so beautiful yet terrific.</p>
+											<a href="#">Apply now</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- slider-area end -->
+		
+		<!-- course-area start -->
+		<div class="course-area bg-2 ptb-120">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7 col-xs-12">
+						<div class="course-wrap">
+							<h2 class="section-title">POPULAR COURSES</h2>
+							<div class="row">
+								<div class="course-active next-prev-style">
+									<div class="course-items">
+										<div class="col-xs-12">
+											<div class="course-item">
+												<div class="course-img">
+													<img src="img/cource/1.jpg" alt="" />
+												</div>
+												<div class="course-content">
+													<h3><a href="#">Web Design & DEVELOPMENT</a></h3>
+													<div class="course-meta">
+														<ul>
+															<li><i class="fa fa-folder-o"></i> Mathematics, Science</li>
+															<li><i class="fa fa-clock-o"></i> 124 Hour</li>
+														</ul>
+													</div>
+													<p>The face of the moon was in shadow.The spectacle before us was indeed sublime.All their equipment and instruments are alive.</p>
+													<a href="#" class="btn-style">apply now</a>
+												</div>
+											</div>
+										</div>
+										<div class="col-xs-12">
+											<div class="course-item">
+												<div class="course-img">
+													<img src="img/cource/2.jpg" alt="" />
+												</div>
+												<div class="course-content">
+													<h3><a href="#">Electrical Engineering</a></h3>
+													<div class="course-meta">
+														<ul>
+															<li><i class="fa fa-folder-o"></i> Mathematics, Science</li>
+															<li><i class="fa fa-clock-o"></i> 124 Hour</li>
+														</ul>
+													</div>
+													<p>The face of the moon was in shadow.The spectacle before us was indeed sublime.All their equipment and instruments are alive.</p>
+													<a href="#" class="btn-style">apply now</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="course-items">
+										<div class="col-xs-12">
+											<div class="course-item">
+												<div class="course-img">
+													<img src="img/cource/3.jpg" alt="" />
+												</div>
+												<div class="course-content">
+													<h3><a href="#">Agricultural Management</a></h3>
+													<div class="course-meta">
+														<ul>
+															<li><i class="fa fa-folder-o"></i> Mathematics, Science</li>
+															<li><i class="fa fa-clock-o"></i> 124 Hour</li>
+														</ul>
+													</div>
+													<p>The face of the moon was in shadow.The spectacle before us was indeed sublime.All their equipment and instruments are alive.</p>
+													<a href="#" class="btn-style">apply now</a>
+												</div>
+											</div>
+										</div>
+										<div class="col-xs-12">
+											<div class="course-item">
+												<div class="course-img">
+													<img src="img/cource/4.jpg" alt="" />
+												</div>
+												<div class="course-content">
+													<h3><a href="#">Actuarial Science</a></h3>
+													<div class="course-meta">
+														<ul>
+															<li><i class="fa fa-folder-o"></i> Mathematics, Science</li>
+															<li><i class="fa fa-clock-o"></i> 124 Hour</li>
+														</ul>
+													</div>
+													<p>The face of the moon was in shadow.The spectacle before us was indeed sublime.All their equipment and instruments are alive.</p>
+													<a href="#" class="btn-style">apply now</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-5 col-xs-12">
+						<div class="course-sidebar-area">
+									<div style="    height: 1403px" class="course-sidebar-wrap">
+							<form method="post" novalidate>
+  <div id="msform">
+    <!-- progressbar -->
+    <h2 style="color: white;margin-right: 4%;margin-bottom: 10%" >E-Qeydiyyat</h2>
+
+    <ul style="    margin-bottom: 0px" id="progressbar">
+      <li class="active">Account Setup</li>
+      <div></div>
+      <li>test</li>
+
+      <li>Social Profiles</li>
+      <li>Details</li>
+
+    </ul>
+    <!-- fieldsets -->
+    <fieldset>
+      <input type="text" name="name" placeholder="Ad" />
+      <input type="text" name="surname" placeholder="Soyad" />
+
+      <input type="text" name="email" placeholder="Email" />
+      <input type="date" name="birthday" placeholder="Doğum tarixi" />
+      <input type="button" name="next" class="next action-button" value="Növbəti" />
+    </fieldset>
+    <fieldset>
+      <input type="text" name="place" placeholder="Hal  hazirda təhsil aldiğiniz muəsisə" />
+      <input type="date" name="dats" placeholder="Bitirdiyiniz ve ya bitireceyiniz tarix" />
+      <input type="file" name="gplus" placeholder="Atestat ve ya Diplom" />
+      <input type="text" name="gplus" placeholder="Gwef" />
+      <input type="text" name="gplus" placeholder="wfewe Pslus" />
+      <input type="button" name="previous" class="previous action-button" value="Əvvələ" />
+      <input type="button" name="next" class="next action-button" value="Növbəti" />
+    </fieldset>
+
+    <fieldset>
+      <input type="text" name="twitter" placeholder="Twitterwed2" />
+      <input type="text" name="facebook" placeholder="Facebookewe" />
+      <input type="text" name="gplus" placeholder="Google Plefweus" />
+      <input type="text" name="gplus" placeholder="Google Plefweus" />
+
+      <input type="text" name="gplus" placeholder="Google Plefweus" />
+
+      <input type="button" name="previous" class="previous action-button" value="Əvvələ" />
+      <input type="button" name="next" class="next action-button" value="Növbəti" />
+    </fieldset>	
+    <fieldset>
+      <input type="text" name="city" placeholder="Şəhər" />
+      <input type="text" name="adress" placeholder="Ünvan" />
+      <input type="text" name="phone1" placeholder="Telefon1" />
+      <input type="text" name="phone2" placeholder="Telefon2" />
+
+
+      <input type="button" name="previous" class="previous action-button" value="Əvvələ" />
+      <input type="submit" name="submit" class="submit action-button" value="Təsdiq" />
+    </fieldset>
+  </div>
+</form>
+</div>
+						</div>
+						<!-- latest news -->
+					
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- course-area start -->
+		
+		<!-- callto-action-area start-->
+		<div class="callto-action-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7 col-sm-8 col-xs-12">
+						<p>Click to Join the Advance Workshop <strong>Choose The Design Tool You Want To Learn</strong></p>
+					</div>
+					<div class="col-md-offset-1 col-md-4 clear col-sm-4 col-xs-12">
+						<button class="pull-right">Join Now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- callto-action-area end-->
+		
+		<!-- event-area start -->
+		<div class="event-area ptb-120">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<h2 class="section-title">UPCOMING EVENTS</h2>
+						<div class="event-wrap">
+							<ul>
+								<li>
+									<div class="event-time width-one ">
+										<strong>15 July 2017</strong>
+										<span>8:00 AM - 5:00 PM</span>
+									</div>
+									<div class="event-content width-three">
+										<h3><a href="#">Waves flung themselves at the blue evening.</a></h3>
+										<span>Location - Paris,French</span>
+										<p>A red flair silhouetted the jagged edge of a wing.I watched  storm, so beautiful yet terrific.Then came the night of the first falling star.the watched the storm, so the beautiful yet terrific.</p>
+									</div>
+									<div class="event-img width-two">
+										<img src="img/event/1.jpg" alt="" />
+									</div>
+								</li>
+								<li>
+									<div class="event-img width-two">
+										<img src="img/event/2.jpg" alt="" />
+									</div>
+									<div class="event-content width-three">
+										<h3><a href="#">Almost before we knew it, we had left the ground.</a></h3>
+										<span>Location - New York,USA</span>
+										<p>A red flair silhouetted the jagged edge of a wing.I watched  storm, so beautiful yet terrific.Then came the night of the first falling star.the watched the storm, so the beautiful yet terrific.</p>
+									</div>
+									<div class="event-time width-one event-time2">
+										<strong>29 July 2017</strong>
+										<span>8:00 AM - 5:00 PM</span>
+									</div>
+								</li>
+								<li>
+									<div class="event-time width-one">
+										<strong>18 July 2017</strong>
+										<span>8:00 AM - 5:00 PM</span>
+									</div>
+									<div class="event-content width-three">
+										<h3><a href="#">Then came the night of the first falling star.</a></h3>
+										<span>Location - Paris,French</span>
+										<p>A red flair silhouetted the jagged edge of a wing.I watched  storm, so beautiful yet terrific.Then came the night of the first falling star.the watched the storm, so the beautiful yet terrific.</p>
+									</div>
+									<div class="event-img width-two">
+										<img src="img/event/3.jpg" alt="" />
+									</div>
+								</li>
+								<li>
+									<div class="event-img width-two event-img2">
+										<img src="img/event/4.jpg" alt="" />
+									</div>
+									<div class="event-content width-three">
+										<h3><a href="#">Almost before we knew it, we had left the ground.</a></h3>
+										<span>Location - New York,USA</span>
+										<p>A red flair silhouetted the jagged edge of a wing.I watched  storm, so beautiful yet terrific.Then came the night of the first falling star.the watched the storm, so the beautiful yet terrific.</p>
+									</div>
+									<div class="event-time width-one event-time2">
+										<strong>12 July 2017</strong>
+										<span>8:00 AM - 5:00 PM</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- event-area end -->
+		
+		<!-- vedio-area start -->
+		<div class="video-area opacity-background bg-img-2">
+			<video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" data-setup="{}">
+				<source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
+			</video>
+			<div class="container video-wrap">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1 col-xs-12">
+						<h2>Take a Virtual Tour!</h2>
+						<p>Almost before we knew it we had left the ground.The face of the moon was in shadow.The spectacle before us was indeed sublime.alive.All their equipment and instruments are alive.I watched the storm, so beautiful yet terrific.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- vedio-area end -->
+		
+		<!-- testimonial-area start -->
+		<div class="testimonial-area ptb-120 bg-2">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-5 col-xs-12">
+						<div class="subscribe-wrap text-center bg-1">
+							<img src="img/icon.png" alt="" />
+							<h2><span>Subscribe</span> to Our Newsletter</h2>
+							<input type="email" placeholder="Emaill Address"/>
+							<button>Subscribe</button>
+						</div>
+					</div>
+					<div class="col-md-8 col-sm-7 col-xs-12">
+						<div class="test-wrap text-center">
+							<h2><span>What</span> About Client’s Say </h2>
+							<div class="test-active">
+								<div class="test-items">
+									<p>Almost before we knew it we had left the ground.The face of the moon was in shadow.The spectacle before us was indeed sublime.All their equipment and instruments are alive.All their equipment and instruments are alive.</p>
+									<div class="test-img">
+										<img src="img/test/1.png" alt="" />
+									</div>
+									<h3>Robart Almas</h3>
+									<span>CEO,Envato</span>
+								</div>
+								<div class="test-items">
+									<p>Almost before we knew it we had left the ground.The face of the moon was in shadow.The spectacle before us was indeed sublime.All their equipment and instruments are alive.All their equipment and instruments are alive.</p>
+									<div class="test-img">
+										<img src="img/test/2.png" alt="" />
+									</div>
+									<h3>Alex Almas</h3>
+									<span>CEO,Envato</span>
+								</div>
+								<div class="test-items">
+									<p>Almost before we knew it we had left the ground.The face of the moon was in shadow.The spectacle before us was indeed sublime.All their equipment and instruments are alive.All their equipment and instruments are alive.</p>
+									<div class="test-img">
+										<img src="img/test/3.png" alt="" />
+									</div>
+									<h3>Robart Almas</h3>
+									<span>CEO,Envato</span>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- testimonial-area end -->
+		
+		<!-- brand-area start -->
+		<div class="brand-area ptb-100">
+			<div class="container">
+				<div class="row">
+					<div class="brand-active">
+						<div class="col-xs-12">
+							<div class="brand-item">
+								<img src="img/brand/1.png" alt="" />
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="brand-item">
+								<img src="img/brand/2.png" alt="" />
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="brand-item">
+								<img src="img/brand/3.png" alt="" />
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="brand-item">
+								<img src="img/brand/4.png" alt="" />
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="brand-item">
+								<img src="img/brand/5.png" alt="" />
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="brand-item">
+								<img src="img/brand/6.png" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- brand-area end -->
+		
+		<!-- footer-area start -->
+		<footer>
+			<div class="footer-top ptb-120">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class=" footer-widget">
+								<img src="img/logo2.png" alt="" />
+								<p>#123 King , Melbourne vic 3000, Sydney New City, Australia</p>
+								<p>(+08) 9673 123 765,(+08) 9673 148 112</p>
+								<p>hello@university.com</p>
+								<div class="socil-icon">
+									<ul>
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+										<li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+										<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="footer-widget footer-menu">
+								<h2>Course</h2>
+								<ul>
+									<li><a href="#">Forms and Admision materials</a></li>
+									<li><a href="#">Courses in Education</a></li>
+									<li><a href="#">Education In Aborod The USA</a></li>
+									<li><a href="#">Education Of Design   Art</a></li>
+									<li><a href="#">Web Design Course, USA</a></li>
+									<li><a href="#">UI/UX Design Course</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="footer-widget footer-menu">
+								<h2>Resourse</h2>
+								<ul>
+									<li><a href="#">Forms and Admision materials</a></li>
+									<li><a href="#">Courses in Education</a></li>
+									<li><a href="#">Education In Aborod The USA</a></li>
+									<li><a href="#">Education Of Design   Art</a></li>
+									<li><a href="#">Web Design Course, USA</a></li>
+									<li><a href="#">UI/UX Design Course</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="footer-widget footer-menu">
+								<h2>Books</h2>
+								<ul>
+									<li><a href="#">The Mad Tibetan</a></li>
+									<li><a href="#">The Best Thing About You is You</a></li>
+									<li><a href="#">I Witness: Partial Observations</a></li>
+									<li><a href="#">For the New Generation</a></li>
+									<li><a href="#">Go Set a Watchman</a></li>
+									<li><a href="#">And Then One Day</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="copyright">
+								&copy; COPYRIGHT univercity 2017. DESIGN BY <a href="#">perculatheme</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- footer-area end -->
+		
+		<!-- all js here -->
+		<!-- jquery latest version -->
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+		<!-- bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
+		<!-- owl.carousel.2.0.0-beta.2.4 css -->
+        <script src="js/owl.carousel.min.js"></script>
+		<!-- wow js -->
+        <script src="js/video.js"></script>
+		<!-- jquery.slicknav.min.js -->
+        <script src="js/jquery.slicknav.min.js"></script>
+		<!-- jquery.waypoints.min.js -->
+        <script src="js/jquery.waypoints.min.js"></script>
+		<!-- counterup.main.js -->
+        <script src="js/counterup.main.js"></script>
+		<!-- wow js -->
+        <script src="js/videojs-ie8.min.js"></script>
+		<!-- wow js -->
+        <script src="js/wow.min.js"></script>
+		<!-- plugins js -->
+        <script src="js/plugins.js"></script>
+		<!-- main js -->
+        <script src="js/main.js"></script>
+        <script>
+        
+        	//jQuery time
+(function($) {
+  var current_fs, next_fs, previous_fs; //fieldsets
+  var left, opacity, scale; //fieldset properties which we will animate
+  var animating; //flag to prevent quick multi-click glitches
+
+  $(".next").click(function() {
+    if (animating) return false;
+    animating = true;
+
+    current_fs = $(this).parent();
+    next_fs = $(this).parent().next();
+
+    //activate next step on progressbar using the index of next_fs
+    $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+    //show the next fieldset
+    next_fs.show();
+    //hide the current fieldset with style
+    current_fs.animate({
+    }, {
+      step: function(now, mx) {
+        //as the opacity of current_fs reduces to 0 - stored in "now"
+        //1. scale current_fs down to 80%
+        scale = 1 - (1 - now) * 0.2;
+        //2. bring next_fs from the right(50%)
+        left = (now * 50) + "%";
+        //3. increase opacity of next_fs to 1 as it moves in
+        opacity = 1 - now;
+        current_fs.css({
+          'transform': 'scale(' + scale + ')'
+        });
+        next_fs.css({
+          'left': left,
+          'opacity': opacity
+        });
+      },
+      duration: 800,
+      complete: function() {
+        current_fs.hide();
+        animating = false;
+      },
+      //this comes from the custom easing plugin
+    });
+  });
+
+  $(".previous").click(function() {
+    if (animating) return false;
+    animating = true;
+
+    current_fs = $(this).parent();
+    previous_fs = $(this).parent().prev();
+
+    //de-activate current step on progressbar
+    $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
+
+    //show the previous fieldset
+    previous_fs.show();
+    //hide the current fieldset with style
+    current_fs.animate({
+    }, {
+      step: function(now, mx) {
+        //as the opacity of current_fs reduces to 0 - stored in "now"
+        //1. scale previous_fs from 80% to 100%
+        scale = 0.8 + (1 - now) * 0.2;
+        //2. take current_fs to the right(50%) - from 0%
+        left = ((1 - now) * 50) + "%";
+        //3. increase opacity of previous_fs to 1 as it moves in
+        opacity = 1 - now;
+        current_fs.css({
+          'left': left
+        });
+        previous_fs.css({
+          'transform': 'scale(' + scale + ')',
+          'opacity': opacity
+        });
+      },
+      duration: 800,
+      complete: function() {
+        current_fs.hide();
+        animating = false;
+      },
+      //this comes from the custom easing plugin
+    });
+  });
+
+})(jQuery);
+        </script>
+    </body>
+
+<!-- Mirrored from wpgeeky.com/html/university-preview/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 16 Apr 2019 06:18:01 GMT -->
+</html>

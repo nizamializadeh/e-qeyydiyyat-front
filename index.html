@@ -32,6 +32,37 @@
 		<!-- modernizr css -->
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <style>
+        	.ig{
+        		background-image: url("img/tehsil.jpg");
+        		background-size: cover;
+        	}
+        	.sd-container {
+  position: relative;
+  /*float: left;*/
+}
+
+.sd {
+  border: 1px solid #1cbaa5;
+  padding: 5px 10px;
+  height: 30px;
+  width: 150px;
+}
+
+.open-button {
+    position: absolute;
+    top: 15px;
+    right: 3px;
+    width: 25px;
+    height: 23px;
+    background: #fff;
+    pointer-events: none;
+    right: 11px;
+}
+
+.open-button button {
+  border: none;
+  background: transparent;
+}
         	@import url(https://fonts.googleapis.com/css?family=Montserrat);
 /* css class for the registration form generated errors */
 
@@ -58,15 +89,13 @@
 }
 
 #msform fieldset {
-  background: #174873 none repeat scroll 0 0;
+  background: #652267;
   border: 0 none;
   border-radius: 3px;
-  /*box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);*/
   padding: 20px 30px;
   box-sizing: border-box;
-  width: 80%;
-  margin: 0 9%;
-  /*stacking fieldsets above each other*/
+  width: 100%;
+  margin: 0 0%;
   
   position: absolute;
 }
@@ -87,7 +116,7 @@
   box-sizing: border-box;
   font-family: montserrat;
   color: #2C3E50;
-  font-size: 13px;
+  font-size: 14px;
 }
 /*buttons*/
 
@@ -187,40 +216,7 @@
 		
 		<!-- header area start -->
 		<header>
-			<div class="header-top bg-1 ptb-20">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 col-sm-6 col-xs-12">
-							<div class="header-top-left">
-								<ul class="language">
-									<li><a href="#">Language <i class="fa fa-angle-down"></i></a>
-										<ul class="dropdown">
-											<li><a href="#">English</a></li>
-											<li><a href="#">French</a></li>
-											<li><a href="#">Arabic</a></li>
-										</ul>
-									</li>
-								</ul>
-								<ul class="socil-icon">
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-									<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-6 col-sm-6 col-xs-12">
-							<div class="header-top-right text-right">
-								<ul>
-									<li><a href="#">Log in <i class="fa fa-user"></i></a></li>
-									<li><a href="#"><i class="fa fa-unlock-alt"></i> Register</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+		
 			<div class="header-bottom" id="sticky-header">
 				<div class="container">
 					<div class="row">
@@ -235,32 +231,12 @@
 							<div class="mainmenu text-right">
 								<ul id="navigation">
 									<li class="active"><a href="index-2.html">Home</a>
-										<ul>
-											<li><a href="index-2.html">Home Page One</a></li>
-											<li><a href="index2.html">Home Page Two</a></li>
-										</ul>
 									</li>
 									<li><a href="courses.html">courses</a>
-										<ul>
-											<li><a href="courses.html">Courses page</a></li>
-											<li><a href="courses-grid.html">Courses 3 col Grid</a></li>
-											<li><a href="courses-left-sidebar.html">Courses Left Sidebar</a></li>
-											<li><a href="courses-right-sidebar.html">Courses Right Sidebar</a></li>
-											<li><a href="courses-details.html">Courses Details</a></li>
-										</ul>
 									</li>
 									<li><a href="#">blog</a>
-										<ul>
-											<li><a href="blog-left-sidebar.html">blog Left Sidebar</a></li>
-											<li><a href="blog-right-sidebar.html">blog right Sidebar</a></li>
-											<li><a href="blog-details.html">blog details</a></li>
-										</ul>
 									</li>
 									<li><a href="#">pages</a>
-										<ul class="right">
-											<li><a href="about.html">About Us</a></li>
-											<li><a href="404.html">404 Pages</a></li>
-										</ul>
 									</li>
 									<li><a href="contact.html">contact</a></li>
 								</ul>
@@ -428,7 +404,7 @@
 					</div>
 					<div class="col-md-5 col-xs-12">
 						<div class="course-sidebar-area">
-									<div style="    height: 1403px" class="course-sidebar-wrap">
+									<div style="    height: 1403px" class="course-sidebar-wrap ig">
 							<form method="post" novalidate>
   <div id="msform">
     <!-- progressbar -->
@@ -449,13 +425,23 @@
       <input type="text" name="surname" placeholder="Soyad" />
 
       <input type="text" name="email" placeholder="Email" />
-      <input type="date" name="birthday" placeholder="Doğum tarixi" />
+        <div class="sd-container">
+    <input class="sda" type="date" name="selected_date" />
+    <span class="open-button">
+      <button type="button">📅</button>
+    </span>
+  </div>
       <input type="button" name="next" class="next action-button" value="Növbəti" />
     </fieldset>
     <fieldset>
       <input type="text" name="place" placeholder="Hal  hazirda təhsil aldiğiniz muəsisə" />
-      <input type="date" name="dats" placeholder="Bitirdiyiniz ve ya bitireceyiniz tarix" />
-      <input type="file" name="gplus" placeholder="Atestat ve ya Diplom" />
+              <div class="sd-container">
+    <input class="sda" type="date" name="selected_date" placeholder="Bitirdiyiniz ve ya bitireceyiniz tarix" />
+    <span class="open-button">
+      <button type="button">📅</button>
+    </span>
+  </div>
+      <input style="background-color: white" type="file" name="gplus" placeholder="Atestat ve ya Diplom" />
       <input type="text" name="gplus" placeholder="Gwef" />
       <input type="text" name="gplus" placeholder="wfewe Pslus" />
       <input type="button" name="previous" class="previous action-button" value="Əvvələ" />
@@ -463,6 +449,7 @@
     </fieldset>
 
     <fieldset>
+    
       <input type="text" name="twitter" placeholder="Twitterwed2" />
       <input type="text" name="facebook" placeholder="Facebookewe" />
       <input type="text" name="gplus" placeholder="Google Plefweus" />
@@ -493,94 +480,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- course-area start -->
-		
-		<!-- callto-action-area start-->
-		<div class="callto-action-area">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-7 col-sm-8 col-xs-12">
-						<p>Click to Join the Advance Workshop <strong>Choose The Design Tool You Want To Learn</strong></p>
-					</div>
-					<div class="col-md-offset-1 col-md-4 clear col-sm-4 col-xs-12">
-						<button class="pull-right">Join Now</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- callto-action-area end-->
-		
-		<!-- event-area start -->
-		<div class="event-area ptb-120">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12">
-						<h2 class="section-title">UPCOMING EVENTS</h2>
-						<div class="event-wrap">
-							<ul>
-								<li>
-									<div class="event-time width-one ">
-										<strong>15 July 2017</strong>
-										<span>8:00 AM - 5:00 PM</span>
-									</div>
-									<div class="event-content width-three">
-										<h3><a href="#">Waves flung themselves at the blue evening.</a></h3>
-										<span>Location - Paris,French</span>
-										<p>A red flair silhouetted the jagged edge of a wing.I watched  storm, so beautiful yet terrific.Then came the night of the first falling star.the watched the storm, so the beautiful yet terrific.</p>
-									</div>
-									<div class="event-img width-two">
-										<img src="img/event/1.jpg" alt="" />
-									</div>
-								</li>
-								<li>
-									<div class="event-img width-two">
-										<img src="img/event/2.jpg" alt="" />
-									</div>
-									<div class="event-content width-three">
-										<h3><a href="#">Almost before we knew it, we had left the ground.</a></h3>
-										<span>Location - New York,USA</span>
-										<p>A red flair silhouetted the jagged edge of a wing.I watched  storm, so beautiful yet terrific.Then came the night of the first falling star.the watched the storm, so the beautiful yet terrific.</p>
-									</div>
-									<div class="event-time width-one event-time2">
-										<strong>29 July 2017</strong>
-										<span>8:00 AM - 5:00 PM</span>
-									</div>
-								</li>
-								<li>
-									<div class="event-time width-one">
-										<strong>18 July 2017</strong>
-										<span>8:00 AM - 5:00 PM</span>
-									</div>
-									<div class="event-content width-three">
-										<h3><a href="#">Then came the night of the first falling star.</a></h3>
-										<span>Location - Paris,French</span>
-										<p>A red flair silhouetted the jagged edge of a wing.I watched  storm, so beautiful yet terrific.Then came the night of the first falling star.the watched the storm, so the beautiful yet terrific.</p>
-									</div>
-									<div class="event-img width-two">
-										<img src="img/event/3.jpg" alt="" />
-									</div>
-								</li>
-								<li>
-									<div class="event-img width-two event-img2">
-										<img src="img/event/4.jpg" alt="" />
-									</div>
-									<div class="event-content width-three">
-										<h3><a href="#">Almost before we knew it, we had left the ground.</a></h3>
-										<span>Location - New York,USA</span>
-										<p>A red flair silhouetted the jagged edge of a wing.I watched  storm, so beautiful yet terrific.Then came the night of the first falling star.the watched the storm, so the beautiful yet terrific.</p>
-									</div>
-									<div class="event-time width-one event-time2">
-										<strong>12 July 2017</strong>
-										<span>8:00 AM - 5:00 PM</span>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- event-area end -->
+
 		
 		<!-- vedio-area start -->
 		<div class="video-area opacity-background bg-img-2">
@@ -598,54 +498,7 @@
 		</div>
 		<!-- vedio-area end -->
 		
-		<!-- testimonial-area start -->
-		<div class="testimonial-area ptb-120 bg-2">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4 col-sm-5 col-xs-12">
-						<div class="subscribe-wrap text-center bg-1">
-							<img src="img/icon.png" alt="" />
-							<h2><span>Subscribe</span> to Our Newsletter</h2>
-							<input type="email" placeholder="Emaill Address"/>
-							<button>Subscribe</button>
-						</div>
-					</div>
-					<div class="col-md-8 col-sm-7 col-xs-12">
-						<div class="test-wrap text-center">
-							<h2><span>What</span> About Client’s Say </h2>
-							<div class="test-active">
-								<div class="test-items">
-									<p>Almost before we knew it we had left the ground.The face of the moon was in shadow.The spectacle before us was indeed sublime.All their equipment and instruments are alive.All their equipment and instruments are alive.</p>
-									<div class="test-img">
-										<img src="img/test/1.png" alt="" />
-									</div>
-									<h3>Robart Almas</h3>
-									<span>CEO,Envato</span>
-								</div>
-								<div class="test-items">
-									<p>Almost before we knew it we had left the ground.The face of the moon was in shadow.The spectacle before us was indeed sublime.All their equipment and instruments are alive.All their equipment and instruments are alive.</p>
-									<div class="test-img">
-										<img src="img/test/2.png" alt="" />
-									</div>
-									<h3>Alex Almas</h3>
-									<span>CEO,Envato</span>
-								</div>
-								<div class="test-items">
-									<p>Almost before we knew it we had left the ground.The face of the moon was in shadow.The spectacle before us was indeed sublime.All their equipment and instruments are alive.All their equipment and instruments are alive.</p>
-									<div class="test-img">
-										<img src="img/test/3.png" alt="" />
-									</div>
-									<h3>Robart Almas</h3>
-									<span>CEO,Envato</span>
-								</div>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- testimonial-area end -->
+	
 		
 		<!-- brand-area start -->
 		<div class="brand-area ptb-100">

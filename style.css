@@ -63,7 +63,7 @@ a {
 	color:#242424;
 }
 a:hover {
-	color: #14a5e4;
+	color: #652267;
 	text-decoration: none;
 }
 a:active, a:hover, a:focus { 
@@ -76,7 +76,7 @@ ul{
 	padding: 0;
 }
 
-.bg-1{background:#174873;}
+.bg-1{background:#652267;}
 .bg-2{background:#f5f4f4;}
 
 .ptb-20{padding:20px 0px;}
@@ -102,7 +102,7 @@ a#scrollUp {
 	border-radius: 3px;
 }
 a#scrollUp:hover{
-	background:#14a5e4;
+	background:#652267;
 }
 .header-bottom.sticky {
 	background: #fff none repeat scroll 0 0;
@@ -170,7 +170,7 @@ a#scrollUp:hover{
 	border-bottom:1px solid #e1e1e1;
 }
 .language li > ul li:hover a{
-	background:#14a5e4;
+	background:#652267;
 	color:#fff;
 }
 .language li a {
@@ -201,7 +201,7 @@ a#scrollUp:hover{
 }
 .header-top-right ul li a i.fa-user{margin-left:5px;}
 .header-top-right ul li a i.fa-unlock-alt{margin-right:5px;}
-.header-top a:hover{color:#14a5e4}
+.header-top a:hover{color:#652267}
 /*--------- header-top-area end-----------*/
 
 /*--------- header-bottom-area start-----------*/
@@ -211,7 +211,7 @@ a#scrollUp:hover{
 .mainmenu ul li {
 	display: inline-block;
 	margin: 0 25px;
-	padding: 31px 0;
+	padding: 43px 0;
 	position: relative;
 }
 .mainmenu ul li:last-child{
@@ -220,9 +220,11 @@ a#scrollUp:hover{
 .mainmenu ul li a{
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+
 }
 .mainmenu ul li:hover a,.mainmenu ul li.active a{
-	color:#14a5e4;
+	color:black;
 }
 .mainmenu ul li > ul {
 	text-align: left;
@@ -244,7 +246,7 @@ a#scrollUp:hover{
 }
 .mainmenu ul li > ul li:last-child a,.language li > ul li:last-child  a{border-bottom:none}
 .mainmenu ul li > ul li:hover a{
-	background:#14a5e4;
+	background:#652267;
 	color:#fff !important;
 }
 
@@ -293,7 +295,7 @@ a#scrollUp:hover{
 .responsive-menu-wrap .slicknav_nav a:hover {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   border-radius: 6px;
-  color: #14a5e4;
+  color: #652267;
 }
 .responsive-menu-wrap .slicknav_nav a {
 	color: #fff;
@@ -363,8 +365,8 @@ a#scrollUp:hover{
 	font-size:18px;
 }
 .slider-content a:hover{
-	background:#14a5e4;
-	border-color:#14a5e4;
+	background:#652267;
+	border-color:#652267;
 }
 .slider-active .owl-nav div {
 	background: rgba(23, 72, 115, 0.3) none repeat scroll 0 0;
@@ -381,7 +383,7 @@ a#scrollUp:hover{
 	width: 55px;
 }
 .slider-active .owl-nav div:hover{
-	background:#14a5e4;
+	background:#652267;
 }
 .slider-active .owl-nav div.owl-next{
 	left: 22.75%;
@@ -393,7 +395,7 @@ a#scrollUp:hover{
 	font-size:30px;
 	font-weight:600;
 	color:#fff;
-	background:#174873;
+	background:#652267;
 	padding:10px 15px;
 	display:inline-block;
 	position:relative;
@@ -446,13 +448,13 @@ a#scrollUp:hover{
 .btn-style{
 	padding:10px 30px;
 	display:inline-block;
-	background:#174873;
+	background:#652267;
 	color:#fff;
 	text-transform:uppercase;
 	border-radius:2px;
 }
 .btn-style:hover{
-	background:#14a5e4;
+	background:#652267;
 	color:#fff;
 }
 .course-active{
@@ -460,7 +462,7 @@ a#scrollUp:hover{
 	position:relative;
 }
 .course-active::before {
-	background: #14a5e4 none repeat scroll 0 0;
+	background: #652267 none repeat scroll 0 0;
 	bottom: 23px;
 	content: "";
 	height: 2px;
@@ -471,7 +473,7 @@ a#scrollUp:hover{
 .course-active .owl-nav div{
 	height:50px;
 	width:50px;
-	border:1px solid #14a5e4;
+	border:1px solid #652267;
 	position:absolute;
 	right:15px;
 	border-radius:50%;
@@ -479,11 +481,11 @@ a#scrollUp:hover{
 	text-align:center;
 	line-height:45px;
 	font-size:30px;
-	color:#14a5e4;
+	color:#652267;
 	transition:all .5s;
 }
 .course-active .owl-nav div:hover{
-	background:#14a5e4;
+	background:#652267;
 	color:#fff;
 }
 .course-active .owl-nav div.owl-next{
@@ -501,7 +503,7 @@ a#scrollUp:hover{
 }
 .course-sidebar-menu ul{overflow:hidden}
 .course-sidebar-menu {
-	border-bottom: 1px dotted #14a5e4;
+	border-bottom: 1px dotted #652267;
 	padding-bottom: 25px;
 	margin-bottom:65px;
 }
@@ -516,10 +518,10 @@ a#scrollUp:hover{
   font-family: 'Montserrat', sans-serif;
 }
 .course-sidebar-menu ul li a:hover,.course-sidebar-menu ul li.active a{
-	color:#14a5e4;
+	color:#652267;
 } 
 .upload-wrap {
-	border-bottom: 1px dotted #14a5e4;
+	border-bottom: 1px dotted #652267;
 	padding-bottom: 65px;
 }
 .upload-wrap label i {
@@ -546,19 +548,19 @@ a#scrollUp:hover{
 	font-family: 'Montserrat', sans-serif;
 }
 .course-from label span{
-	color:#14a5e4;
+	color:#652267;
 }
 .course-from ul li{
 	padding:15px 10px 25px;
-	border-bottom: 1px dotted #14a5e4;
+	border-bottom: 1px dotted #652267;
 	overflow:hidden;
 }
 .course-from input,.course-from select{
 	width:100%;
 	height:35px;
 	border-radius:3px;
-	background:#14a5e4;
-	border:1px solid #14a5e4;
+	background:#652267;
+	border:1px solid #652267;
 	padding-left:10px;
 	font-family: 'Montserrat', sans-serif;
 	color:#fff;
@@ -600,7 +602,7 @@ a#scrollUp:hover{
 	margin-top: 30px;
 	text-transform: uppercase;
 }
-.next-page a:hover{color:#14a5e4}
+.next-page a:hover{color:#652267}
 
 .preview-wrap img {
 	margin-bottom: 30px;
@@ -625,7 +627,7 @@ a#scrollUp:hover{
 }
 .news-title{
 	padding:5px 0px;
-	background:#14a5e4;
+	background:#652267;
 	color:#fff;
 	text-transform:uppercase;
 	font-size:18px;
@@ -639,7 +641,7 @@ a#scrollUp:hover{
 	padding:25px 30px 30px 24px;
 }
 .latest-news ul li {
-	border-bottom: 1px dotted #14a5e4;
+	border-bottom: 1px dotted #652267;
 	color: #fff;
 	margin-bottom: 22px;
 	padding: 0 11px 22px;
@@ -658,7 +660,7 @@ a#scrollUp:hover{
 	font-size:13px;
 }
 .latest-news ul li a:hover{
-	color:#14a5e4;
+	color:#652267;
 }
 /*--------- latest news ---------*/
 /*------------- course-area end -------------*/
@@ -686,8 +688,8 @@ a#scrollUp:hover{
 }
 .callto-action-area p strong{display:block}
 .callto-action-area button {
-	background: #14a5e4 none repeat scroll 0 0;
-	border: 1px solid #14a5e4;
+	background: #652267 none repeat scroll 0 0;
+	border: 1px solid #652267;
 	color: #fff;
 	font-family: "Montserrat",sans-serif;
 	font-size: 20px;
@@ -698,7 +700,7 @@ a#scrollUp:hover{
 }
 .callto-action-area button:hover{
 	background:#fff;
-	color:#14a5e4;
+	color:#652267;
 	border-color:#fff;
 }
 /*------------- callto-action-area end -------------*/
@@ -723,7 +725,7 @@ a#scrollUp:hover{
 }
 .event-wrap ul li:last-child{margin-bottom:0px;}
 .event-time {
-	background: #14a5e4 none repeat scroll 0 0;
+	background: #652267 none repeat scroll 0 0;
 	padding: 63px 25px;
 	text-align:center;
 }
@@ -815,7 +817,7 @@ a#scrollUp:hover{
 	margin-top:20px;
 }
 .video-wrap a:hover{
-	color:#14a5e4;
+	color:#652267;
 }
 /*------------- video-area end -------------*/
 
@@ -878,17 +880,17 @@ a#scrollUp:hover{
 	height:60px;
 	width:100%;
 	border-radius:5px;
-	background:#14a5e4;
-	border:1px solid #14a5e4;
+	background:#652267;
+	border:1px solid #652267;
 	text-transform:uppercase;
 }
 .subscribe-wrap button:hover{
 	background:#fff;
 	border-color:#fff;
-	color:#14a5e4;
+	color:#652267;
 }
 .test-wrap {
-	background:#14a5e4;
+	background:#652267;
 	padding:65px 80px;
 	border-radius:5px;
 	color:#fff;
@@ -964,10 +966,10 @@ a#scrollUp:hover{
 	margin-bottom:40px;
 }
 .footer-widget .socil-icon{
-	margin-top:35px;
+	margin-top:45px;
 	font-size:18px;
 }
-.footer-widget .socil-icon a:hover{color:#14a5e4} 
+.footer-widget .socil-icon a:hover{color:#652267} 
 .footer-widget h2{
 	color:#fff;
 	font-weight:400;
@@ -985,7 +987,7 @@ a#scrollUp:hover{
 	color:#fff;
 }
 .footer-menu ul li a:hover{
-	color:#14a5e4;
+	color:#652267;
 }
 .footer-bottom{
 	padding:40px 0px;
@@ -1002,7 +1004,7 @@ a#scrollUp:hover{
 	color:#fff;
 }
 .copyright a:hover{
-	color:#14a5e4;
+	color:#652267;
 }
 /*------------- footer-area end -------------*/
 
@@ -1018,7 +1020,7 @@ a#scrollUp:hover{
 	z-index:999;
 }
 .header-area .mainmenu ul li:hover a, .header-area .mainmenu ul li.active a{
-	color:#14a5e4;
+	color:#652267;
 }
 .header-area .mainmenu ul li a {
   color: #fff;
@@ -1059,7 +1061,7 @@ a#scrollUp:hover{
 	transition:all .5s;
 }
 .course-active2 .owl-nav div:hover{
-	color:#14a5e4;
+	color:#652267;
 }
 .course-active2 .owl-nav div.owl-next{
 	left:auto;
@@ -1088,7 +1090,7 @@ a#scrollUp:hover{
 .breadcumb-wrap ul li a{
 	color:#fff;
 }
-.breadcumb-wrap ul li a:hover{color:#14a5e4}
+.breadcumb-wrap ul li a:hover{color:#652267}
 .course-col3{
 	padding-bottom:70px;
 }
@@ -1110,9 +1112,9 @@ a#scrollUp:hover{
 	right: 46%;
 }
 .course-col3.course-active2 .owl-nav div:hover{
-	background:#14a5e4;
+	background:#652267;
 	color:#fff;
-	border-color:#14a5e4;
+	border-color:#652267;
 }
 /*------------ breadcumb-area end ------------*/
 .course-menu{
@@ -1150,7 +1152,7 @@ a#scrollUp:hover{
 	width: 40px;
 }
 .course-menu ul li.active a{
-	color:#14a5e4;
+	color:#652267;
 }
 
 .course-list-active .course-img{
@@ -1213,8 +1215,8 @@ a#scrollUp:hover{
 	transition:all .5s;
 }
 .catagoryes ul li a:hover:before{
-	background:#14a5e4;
-	border-color:#14a5e4;
+	background:#652267;
+	border-color:#652267;
 }
 .catagoryes ul li:last-child a{margin-bottom:0px;}
 .latest-course ul li{
@@ -1269,7 +1271,7 @@ a#scrollUp:hover{
 	color:#8c8c8c;
 }
 .search-wrap button:hover{
-	color:#14a5e4;
+	color:#652267;
 }
 /*-------------------- sidebar-area end-------------*/
 /*-------------------- course-area details start-------------*/
@@ -1344,12 +1346,12 @@ a#scrollUp:hover{
 .registration{
 	padding:15px 40px;
 	text-transform:uppercase;
-	background:#14a5e4;
+	background:#652267;
 	color:#fff;
 	font-size:24px;
 	font-weight:600;
 	margin-top:50px;
-	border:1px solid #14a5e4;
+	border:1px solid #652267;
 	border-radius:5px;
 	font-family: "Montserrat",sans-serif;
 }
@@ -1367,7 +1369,7 @@ a#scrollUp:hover{
 	color:#242424;
 }
 .blog-area .btn-style:hover{
-	color:#14a5e4;
+	color:#652267;
 }
 /*-------------------- blog-details area start-------------*/
 .blog-details-wrap{
@@ -1469,7 +1471,7 @@ a#scrollUp:hover{
 	border:none;
 }
 .comment-form button:hover{
-	background:#14a5e4;
+	background:#652267;
 }
 /*-------------------- blog-details area end-------------*/
 
@@ -1495,7 +1497,7 @@ a#scrollUp:hover{
 	width:100%;
 }
 .about-content {
-	padding: 100px 0;
+	/*padding: 100px 0;*/
 }
 .about-content h3{
 	font-size:30px;
@@ -1539,7 +1541,7 @@ a#scrollUp:hover{
 	font-size:65px;
 	font-family: "Montserrat",sans-serif;
 	font-weight:600;
-	color:#14a5e4;
+	color:#652267;
 }
 .funfact-wrap h2{
 	color:#fff;
@@ -1567,7 +1569,7 @@ a#scrollUp:hover{
 .about-project a{
 	display:inline-block;
 	padding:15px 35px;
-	background:#14a5e4;
+	background:#652267;
 	color:#fff;
 	font-size:18px;
 	font-weight:600;
@@ -1622,7 +1624,7 @@ a#scrollUp:hover{
 }
 .contact-form button{
 	padding:10px 20px;
-	background:#14a5e4;
+	background:#652267;
 	color:#fff;
 	font-weight:600;
 	text-transform:capitalize;
